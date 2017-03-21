@@ -111,15 +111,19 @@
     <Compile Include="Configuration\DryIocConfig.cs" />
     <Compile Include="Configuration\WebApiConfig.cs" />
     <Compile Include="Controllers\AuhtorsController.cs" />
+    <Compile Include="Controllers\BooksController.cs" />
     <Compile Include="DryIoc\AsyncExecutionFlowScopeContext.cs" />
     <Compile Include="DryIoc\Container.cs" />
     <Compile Include="DryIoc\FastExpressionCompiler.cs" />
     <Compile Include="DryIoc\ImTools.cs" />
     <Compile Include="DryIoc\WebApi\DryIocWebApi.cs" />
     <Compile Include="Models\Author.cs" />
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\IAuthorProvider.cs" />
+    <Compile Include="Providers\IBookProvider.cs" />
     <Compile Include="Providers\LocalAuthorProvider.cs" />
+    <Compile Include="Providers\LocalBooksProvider.cs" />
     <Compile Include="Repositories\LocalAuthorRepository.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

@@ -11,6 +11,7 @@ namespace BookShelf.Configuration
         {
             var container = new Container();
             container.Register<IAuthorProvider, LocalAuthorProvider>();
+            container.Register<IBookProvider, LocalBooksProvider>();
             container.WithWebApi(config);
 
             return config;

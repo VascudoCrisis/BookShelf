@@ -10,7 +10,7 @@ using BookShelf.Providers;
 
 namespace BookShelf.Controllers
 {
-    [RoutePrefix("")]
+    [RoutePrefix("authors")]
     public class AuhtorsController : ApiController
     {
         private readonly IAuthorProvider _provider;

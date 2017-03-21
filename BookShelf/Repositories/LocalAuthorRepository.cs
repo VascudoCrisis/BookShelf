@@ -17,7 +17,7 @@ namespace BookShelf.Repositories
             this._authors = new List<Author>
             {
                 new Author{Id = 1, LastName = "Brown", FirstName = "Den"},
-                new Author{Id = 1, LastName = "Fry", FirstName = "Max"}
+                new Author{Id = 2, LastName = "Fry", FirstName = "Max"}
             };
         }
 
