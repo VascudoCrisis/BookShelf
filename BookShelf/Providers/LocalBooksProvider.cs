@@ -24,8 +24,8 @@ namespace BookShelf.Providers
         public async Task<Book[]> GetBooks(int? authorId)
         {
             return authorId.HasValue
-                ? await Task.FromResult(this._books.ToArray())
-                : await Task.FromResult(this._books.Where(b => b.AuthorId == authorId.Value).ToArray());
+                ? await Task.FromResult(this._books.Where(b => b.AuthorId == authorId.Value).ToArray())
+                : await Task.FromResult(this._books.ToArray());
         }
     }
 }
